@@ -12,6 +12,7 @@ html {
   display: flex;
   inline-size: 1200px;
   block-size: 100%;
+  justify-content: center;
   align-items: center;
   margin: auto;
   color: #fff;
@@ -74,10 +75,11 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   background: transparent;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
+  font-weight: bold;
   color: #fff;
   padding: 5px;
   cursor: pointer;
@@ -120,12 +122,12 @@ ol {
 .result__video {
   height: 386px;
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
 
 }
 
-.preloader-template,
-.cards-list-item-template {
+.preloader,
+.cards-list-item {
   position: absolute;
   top: 0;
   left: 0;
@@ -184,8 +186,8 @@ ol {
   background-color: transparent;
   appearance: none;
   border: none;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   padding: 2px 0;
@@ -290,7 +292,7 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link:hover,Cccc 
+.content__card-link:hover,
 .content__video-card-title:hover {
   text-decoration: underline;
 }
@@ -304,7 +306,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: transparent;
+  background-color: #545050;
 }
 
 .content__card-link:focus-visible {
@@ -346,6 +348,9 @@ ol {
   object-position: center;
 }
 
+.more-button {
+  margin: auto 3px;
+}
 
 .visually-hidden {
   position: absolute;
