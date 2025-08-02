@@ -257,6 +257,7 @@ ol {
 .content__details {
   display: flex;
   flex-basis: 399px;
+  min-width: 396px;
   flex-direction: column;
   gap: 26px;
   
