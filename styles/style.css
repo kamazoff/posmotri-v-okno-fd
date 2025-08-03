@@ -237,6 +237,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   
+  
 }
 
 .content__list-item {
@@ -251,7 +252,7 @@ ol {
   gap: 30px;
   height: 298px;
   overflow-y: auto;
-  
+  overflow-x: hidden;
 }
 
 .content__details {
