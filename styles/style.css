@@ -252,13 +252,13 @@ ol {
   gap: 30px;
   height: 298px;
   overflow-y: auto;
-  overflow-x: hidden;
+  
 }
 
 .content__details {
   display: flex;
-  flex-basis: 399px;
-  min-width: 396px;
+  
+  min-width: 399px;
   flex-direction: column;
   gap: 26px;
   
